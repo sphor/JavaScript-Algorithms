@@ -1,4 +1,5 @@
 // A binary gap is defined as the maximum sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of the number.
+// This function takes a value "N", and determins the binary gap. 
 
 function binaryGap(N) {
     let binaryString = N.toString(2); // Converts N to a binary string
